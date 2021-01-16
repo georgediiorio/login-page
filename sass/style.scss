@@ -1,0 +1,73 @@
+@import 'config';
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: $primary;
+    color:$text-color;
+    line-height: 1.6;
+    font-family: $font;
+    padding: 1em;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.brand {
+    text-align: center;
+
+
+    span{
+        color:#fff;
+    }
+}
+
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(72, 94 ,116 ,0.7);
+
+    *{
+        padding:1em;
+    }
+}
+
+.company-info {
+    background:$secondary;
+
+    h3, ul{
+        text-align: center;
+        margin: 0 0 1rem 0;
+    }
+}
+
+.contact {
+    background: $light;
+
+    //Form Style
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+        label{
+            display: block;
+        }
+    }
+
+}
+
+
+
+
+
